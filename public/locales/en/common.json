@@ -1,0 +1,42 @@
+{
+  "headTitle": "Felix",
+  "hero": {
+    "title": "Hi, I'm Felix!",
+    "p0": "Full-stack wizard, AI enthusiast, software engineering aspirer",
+    "p1": "Future SWE Intern at",
+    "p2": "Previously",
+    "des0": "I'm a 4th year computer science student at the University of Waterloo. I specialize in SWE and Full-Stack Devlopment with interst in AI.",
+    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, TypeScript and React",
+    "des2": "",
+    "des3": "\nI am currently learning more about AI models and algorithms along wtih the relevant AI tech stack!"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here's some cool stuff I made. Solo and team projects included :D",
+    "journal4me": {
+      "subtitle": "Journaling with a click of a button",
+      "description": "Transcribes video journal entries, summarizes, and generates color coded mood calendars with saved entries"
+    },
+    "badmintontt": {
+      "subtitle": "Track, Evaluate, Resolve",
+      "description": "Tracking app that helped me determine team members to join my high school badminton team while I was team captain"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "These are the technologies I am familiar with. This list is always growing as I develop my career."
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "I had a great time at these companies. Hopefully I will be able to leave impactful code at your company too!"
+  },
+  "contact": {
+    "title": "Contact me!",
+    "description": "Shoot me a message! I appreciate you checking out my website especially since you've made it this far! I'd love to chat or hang out :D"
+  },
+  "currently": "Currently",
+  "citation": {
+    "content": "When life gives you lemons, you don't have to make lemonade :P",
+    "author": "- Felix"
+  }
+}
