@@ -2,7 +2,7 @@ import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPaperclip, FaTwitter } from "react-icons/fa";
 import { HandWave } from "./libs/HandWave";
 import { HeroLink } from "./libs/HeroLink";
 
@@ -12,7 +12,7 @@ export const Hero: FC = () => {
   return (
     <Container className="pt-24 md:pt-32">
       <motion.img
-        src="/images/me.png"
+        src="images/pfp.png"
         alt="me"
         className="border border-gray-700 rounded-full w-28 h-28 md:w-32 md:h-32 mt-36"
         variants={{
@@ -43,27 +43,31 @@ export const Hero: FC = () => {
         {t("hero.p0") as string}
         <br />
         {t("hero.p1") as string}{" "}
-        <HeroLink title="JumpCrypto" href="https://jumpcrypto.com/" />
+        <HeroLink title="Your Company" pointer-events href="" disabled />
         <br />
         {t("hero.p2") as string}{" "}
-        <HeroLink title="Yandex" href="https://yandex.ru" />{" "}
-        {t("and") as string}{" "}
-        <HeroLink title="Citadel" href="https://citadel.com" />
+        <HeroLink title="fliteX" href="https://flitex.net/" />{" "}
+        {t(",") as string}{" "}
+        <HeroLink title="Bluroot" href="https://bluroot.ca/" />
+        {t(" and") as string}{" "}
+        <HeroLink title="WSIB" href="https://www.wsib.ca/en" />
       </p>
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://github.com/ironsoul0"
+          href="https://github.com/LiaoFe"
           className="mr-4"
         />
         <MediaIcon
           icon={<FaLinkedin className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://www.linkedin.com/in/ironsoul/"
+          href="https://www.linkedin.com/in/felix-liao-998a7a24b/"
           className="mr-4"
         />
         <MediaIcon
-          icon={<FaTwitter className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://twitter.com/ironsoul0"
+          icon={
+            <FaPaperclip className="w-6 h-6 md:w-7 md:h-7 animate-bounce hover:animate-spin" />
+          }
+          href="/images/FelixResumeS24.pdf"
         />
       </div>
       <div className="mt-10">

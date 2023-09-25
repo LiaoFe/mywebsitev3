@@ -16,34 +16,19 @@ export const Experience: FC = () => {
   const experience = useMemo(
     () => [
       {
-        title: "React Native Participant",
-        place: "N17R Incubator, Almaty",
-        date: "Jun 2018 - Aug 2018",
+        title: "Data Scientist / Software Engineer",
+        place: "fliteX - Oshawa, Canada",
+        date: "Sept 2023 - present",
       },
       {
-        title: "SWE Intern",
-        place: "Yandex, Moscow",
-        date: "Jun 2019 - Aug 2019",
+        title: "SWE Developer",
+        place: "Bluroot Inc. - Toronto, Canada",
+        date: "Jan 2023 - April 2023",
       },
       {
-        title: "Blockchain Intern",
-        place: "Ethereum Foundation, Remote",
+        title: "Full Stack Developer",
+        place: "WSIB, Remote",
         date: "Jun 2020 - Aug 2020",
-      },
-      {
-        title: "Frontend Engineer",
-        place: "alabs.team, Almaty",
-        date: `Jan 2021 - May 2021`,
-      },
-      {
-        title: "SWE Intern",
-        place: "Citadel, Hong Kong",
-        date: "May 2021 - Aug 2021",
-      },
-      {
-        title: "SWE Intern",
-        place: "Jump Crypto, Singapore",
-        date: "May 2022 - Current",
       },
     ],
     []

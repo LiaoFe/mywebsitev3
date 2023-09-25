@@ -3,9 +3,15 @@ import React, { FC } from "react";
 
 import { Props } from "./props";
 
-export const HeroLink: FC<Props> = ({ title, href }: Props) => {
+export const HeroLink: FC<Props> = ({
+  title,
+  href,
+  disabled = false,
+}: Props) => {
+  const LinkElement = disabled ? motion.span : motion.a;
+
   return (
-    <motion.a
+    <LinkElement
       href={href}
       target="_blank"
       className="relative text-blue-700"
@@ -30,6 +36,6 @@ export const HeroLink: FC<Props> = ({ title, href }: Props) => {
           mass: 3,
         }}
       />
-    </motion.a>
+    </LinkElement>
   );
 };
