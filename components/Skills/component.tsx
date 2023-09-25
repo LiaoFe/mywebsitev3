@@ -2,11 +2,12 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaNodeJs,FaReact, FaPython, FaJava, } from "react-icons/fa";
+import { FaJava,FaNodeJs,FaPython, FaReact,  } from "react-icons/fa";
 import { SiCplusplus, SiNumpy } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
-import { TsIcon, PostgresIcon } from "./libs/Icons";
+
+import { PostgresIcon,TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
