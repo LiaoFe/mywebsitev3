@@ -25,7 +25,7 @@
    yarn
    ```
 
-3. Start the development server
+1. Start the development server
 
    ```sh
    yarn dev
@@ -33,7 +33,4 @@
 
 ## 🚁 Contributing
 
-Feel free to contribute and suggest any improvements.
-
-This repository is a full source of the website created using Next.js, TypeScript and React.
-
+Thanks to Tamik for heavily inspiring this project! His GitHub repository can be found here -> 'https://github.com/ironsoul0/ironsoul.ninja#--ironsoulninja-'
