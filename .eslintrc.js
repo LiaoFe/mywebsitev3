@@ -16,7 +16,6 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended",
     "plugin:tailwind/recommended",
   ],
   rules: {
@@ -24,7 +23,6 @@ module.exports = {
     "simple-import-sort/exports": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-    "prettier/prettier": ["error", {}, { usePrettierrc: false }],
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",
