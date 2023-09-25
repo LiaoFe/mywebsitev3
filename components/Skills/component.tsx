@@ -2,7 +2,7 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaNodeJs,FaReact } from "react-icons/fa";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 

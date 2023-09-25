@@ -1,14 +1,15 @@
-import { Languages, Themes, languages } from "./component";
-import { useHeaderVisible } from "./libs/useHeaderVisible";
 import clsx from "clsx";
 import { Container, Logo } from "components";
 import { useOnClickOutside } from "lib";
-import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTheme } from "next-themes";
 import React, { FC, useCallback, useEffect, useRef, useState } from "react";
 import { HiMoon, HiSun } from "react-icons/hi";
 import useSound from "use-sound";
+
+import { Languages, languages,Themes } from "./component";
+import { useHeaderVisible } from "./libs/useHeaderVisible";
 
 export const Header: FC = () => {
   const [playOnDark] = useSound("/sounds/dark-on.mp3");
