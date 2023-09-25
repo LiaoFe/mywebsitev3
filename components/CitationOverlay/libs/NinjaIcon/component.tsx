@@ -17,6 +17,7 @@ export const NinjaIcon: FC<Props> = ({ className }: Props) => {
       src="/images/pfp.png"
       width="40"
       height="40"
+      alt="icon"
       style={{ borderRadius: "50%" }}
     ></img>
   );
