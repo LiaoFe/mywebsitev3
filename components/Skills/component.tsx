@@ -2,11 +2,12 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaNodeJs,FaReact } from "react-icons/fa";
+import { FaNodeJs,FaReact, FaPython, FaJava, } from "react-icons/fa";
+import { SiCplusplus, SiNumpy } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
-
-import { EthereumIcon, GoIcon, TsIcon } from "./libs/Icons";
+import Clang from './libs/Icons/clang.png'
+import { EthereumIcon, GoIcon, TsIcon, PostgresIcon, CplusplusIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -21,9 +22,9 @@ const skills = [
     icon: <FaReact color="#00D8FF" />,
   },
   {
-    name: "Golang",
-    href: "https://golang.org",
-    icon: <GoIcon />,
+    name: "Python",
+    href: "https://www.python.org/",
+    icon: <FaPython />,
   },
   {
     name: "Node.js",
@@ -31,15 +32,31 @@ const skills = [
     icon: <FaNodeJs color="#539E43" />,
   },
   {
-    name: "Ethereum",
-    href: "https://ethereum.org",
-    icon: <EthereumIcon />,
+    name: "Porstgres",
+    href: "https://www.postgresql.org/",
+    icon: <PostgresIcon />,
   },
   {
     name: "GraphQL",
     href: "https://graphql.org",
     icon: <SiGraphql color="#E535AB" />,
   },
+  {
+    name: "C++",
+    href: "https://cplusplus.com/doc/tutorial/",
+    icon: <SiCplusplus color='#0065C9' />,
+  },
+  {
+    name: "Java",
+    href: "https://www.java.com/en/",
+    icon: <FaJava color="#000000" />,
+  },
+  {
+    name: "NumPy",
+    href: "https://numpy.org/",
+    icon: <SiNumpy color="#4DABCF" />,
+  },
+
 ];
 
 export const Skills: FC = () => {
