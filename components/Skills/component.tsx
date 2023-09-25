@@ -6,8 +6,7 @@ import { FaNodeJs,FaReact, FaPython, FaJava, } from "react-icons/fa";
 import { SiCplusplus, SiNumpy } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
-import Clang from './libs/Icons/clang.png'
-import { EthereumIcon, GoIcon, TsIcon, PostgresIcon, CplusplusIcon } from "./libs/Icons";
+import { TsIcon, PostgresIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
