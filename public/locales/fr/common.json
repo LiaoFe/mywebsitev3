@@ -1,0 +1,42 @@
+{
+  "headTitle": "Felix",
+  "hero": {
+    "title": "Salut, je suis Felix !",
+    "p0": "Expert en développement full-stack, passionné d'IA, aspirant ingénieur logiciel",
+    "p1": "Futur stagiaire en génie logiciel chez",
+    "p2": "Précédemment",
+    "des0": "Je suis étudiant en informatique en 4e année à l'Université de Waterloo. Je me spécialise en génie logiciel et en développement full-stack avec un intérêt pour l'IA.",
+    "des1": "J'aime travailler dans des environnements d'équipe efficaces pour créer du code de haute qualité et impactant. Ma pile technologique la plus forte comprend Python, TypeScript et React.",
+    "des2": "",
+    "des3": "\nJe suis actuellement en train d'en apprendre davantage sur les modèles et les algorithmes d'IA ainsi que sur la pile technologique AI associée !"
+  },
+  "projects": {
+    "title": "Projets",
+    "description": "Voici quelques projets intéressants que j'ai réalisés. Projets en solo et en équipe inclus :D",
+    "journal4me": {
+      "subtitle": "Tenir un journal en un clic",
+      "description": "Transcrit les entrées de journal vidéo, les résume et génère des calendriers d'humeur codés en couleur avec les entrées sauvegardées"
+    },
+    "badmintontt": {
+      "subtitle": "Suivre, Évaluer, Résoudre",
+      "description": "Application de suivi qui m'a aidé à choisir les membres de mon équipe de badminton au lycée lorsque j'étais capitaine de l'équipe"
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "description": "Voici les technologies avec lesquelles je suis familier. Cette liste ne cesse de s'agrandir au fur et à mesure de l'avancement de ma carrière."
+  },
+  "experience": {
+    "title": "Expérience",
+    "description": "J'ai passé un excellent moment dans ces entreprises. J'espère pouvoir laisser un code impactant au sein de votre entreprise également !"
+  },
+  "contact": {
+    "title": "Contactez-moi !",
+    "description": "Envoyez-moi un message ! Je vous remercie d'avoir visité mon site web, en particulier si vous êtes arrivé jusqu'ici ! J'adorerais discuter ou passer du temps ensemble :D"
+  },
+  "currently": "Actuellement",
+  "citation": {
+    "content": "Quand la vie vous donne des citrons, vous n'êtes pas obligé de faire de la limonade.",
+    "author": "Felix"
+  }
+}

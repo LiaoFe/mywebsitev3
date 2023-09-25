@@ -23,8 +23,8 @@ export enum Languages {
 export const languages = [
   {
     id: Languages.ru,
-    name: "RU",
-    flag: "🇷🇺",
+    name: "FR",
+    flag: "fr",
   },
   {
     id: Languages.en,

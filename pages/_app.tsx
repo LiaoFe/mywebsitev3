@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
       <DefaultSeo {...SEO} />
       <Head>
-        <link rel="shortcut icon" href="/pfp.png" />
+        <link rel="shortcut icon" href="/images/pfp.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />

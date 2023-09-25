@@ -12,18 +12,14 @@
   },
   "projects": {
     "title": "Projects",
-    "description": "Here are some of my most favourite projects that I enjoyed coding and designing from scratch, both with a team and alone.",
-    "laddy": {
-      "subtitle": "Get better by solving problems",
-      "description": "Web app selects and lets you solve algorithmic problems of your level by looking at your Codeforces rating."
+    "description": "Here's some cool stuff I made. Solo and team projects included :D",
+    "journal4me": {
+      "subtitle": "Journaling with a click of a button",
+      "description": "Transcribes video journal entries, summarizes, and generates color coded mood calendars with saved entries"
     },
-    "nuopen": {
-      "subtitle": "Freshest ICPC competition",
-      "description": "Landing page for the largest open programming competition organized by Nazarbayev University students."
-    },
-    "railwayz": {
-      "subtitle": "Samruk Hackathon Winner",
-      "description": "Accurate prediction of the number of railway carriages required for different routes. \"Best Architecture\" title among all teams. Project made by Janbyr Inc."
+    "badmintontt": {
+      "subtitle": "Track, Evaluate, Resolve",
+      "description": "Tracking app that helped me determine team members to join my high school badminton team while I was team captain"
     }
   },
   "skills": {
@@ -40,9 +36,7 @@
   },
   "currently": "Currently",
   "citation": {
-    "content": "When life gives you lemons, you don't have to make lemonade",
+    "content": "When life gives you lemons, you don't have to make lemonade :P",
     "author": "Felix"
-  },
-  "covid19": "Postponed due to Covid-19",
-  "and": "and"
+  }
 }
