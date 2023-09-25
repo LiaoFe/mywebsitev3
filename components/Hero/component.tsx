@@ -2,8 +2,7 @@ import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
-import { FaGithub, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
-
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HandWave } from "./libs/HandWave";
 import { HeroLink } from "./libs/HeroLink";
 
@@ -41,23 +40,20 @@ export const Hero: FC = () => {
         <HandWave className="text-4xl md:text-5xl" />
       </div>
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
-        {t("hero.p0")}
+        {t("hero.p0") as string}
         <br />
-        {t("hero.p1")}{" "}
+        {t("hero.p1") as string}{" "}
         <HeroLink title="JumpCrypto" href="https://jumpcrypto.com/" />
         <br />
-        {t("hero.p2")} <HeroLink title="Yandex" href="https://yandex.ru" />{" "}
-        {t("and")} <HeroLink title="Citadel" href="https://citadel.com" />
+        {t("hero.p2") as string}{" "}
+        <HeroLink title="Yandex" href="https://yandex.ru" />{" "}
+        {t("and") as string}{" "}
+        <HeroLink title="Citadel" href="https://citadel.com" />
       </p>
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
           href="https://github.com/ironsoul0"
-          className="mr-4"
-        />
-        <MediaIcon
-          icon={<FaTelegram className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://t.me/iamironsoul"
           className="mr-4"
         />
         <MediaIcon
@@ -72,15 +68,15 @@ export const Hero: FC = () => {
       </div>
       <div className="mt-10">
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des0")}
+          {t("hero.des0") as string}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des1")}
+          {t("hero.des1") as string}
           <br />
-          {t("hero.des2")}
+          {t("hero.des2") as string}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des3")}
+          {t("hero.des3") as string}
         </p>
       </div>
     </Container>

@@ -10,17 +10,17 @@ import useSound from "use-sound";
 
 import { useHeaderVisible } from "./libs/useHeaderVisible";
 
-enum Themes {
+export enum Themes {
   light = "light",
   dark = "dark",
 }
 
-enum Languages {
+export enum Languages {
   en = "en",
   ru = "ru",
 }
 
-const languages = [
+export const languages = [
   {
     id: Languages.ru,
     name: "RU",
@@ -90,7 +90,7 @@ export const Header: FC = () => {
       )}
     >
       <Container className="flex items-center justify-between w-auto py-5 md:py-9 text-black-900 dark:text-white-900">
-        <Link href="/">
+        <Link id="link" legacyBehavior href="/">
           <a href="/">
             <Logo className="w-24 fill-current md:w-28 dark:text-white-900 text-black-900" />
           </a>

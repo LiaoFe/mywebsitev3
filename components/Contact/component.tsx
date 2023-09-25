@@ -8,8 +8,8 @@ export const Contact: FC = () => {
   return (
     <Section
       className="mt-20 mb-16 md:mt-28"
-      title={t("contact.title")}
-      description={t("contact.description")}
+      title={t("contact.title") as string}
+      description={t("contact.description") as string}
     >
       <Container>
         <div className="mt-4">

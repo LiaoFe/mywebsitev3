@@ -59,7 +59,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}
         >
-          {t("citation.content")}
+          {t("citation.content") as string}
         </motion.p>
         <motion.p
           className="text-base md:text-right dark:text-white-700 text-black-700"
@@ -71,7 +71,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}
         >
-          {t("citation.author")}
+          {t("citation.author") as string}
         </motion.p>
       </Container>
     </motion.div>
