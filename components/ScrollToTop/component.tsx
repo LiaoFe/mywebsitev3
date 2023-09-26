@@ -9,7 +9,7 @@ export function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.scrollY > 600) {
+    if (window.scrollY > 100) {
       setIsVisible(true);
       console.log("TRUE");
     } else {
