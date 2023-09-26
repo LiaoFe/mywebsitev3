@@ -1,11 +1,14 @@
 {
   "name": "personalsite",
   "version": "1.0.0",
+  "homepage": "http://liaofe.github.io/mywebsitev3",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx --fix"
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
@@ -39,6 +42,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-tailwind": "^0.2.1",
+    "gh-pages": "^6.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "postcss": "^8.2.9",
