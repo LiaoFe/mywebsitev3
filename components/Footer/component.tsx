@@ -1,4 +1,5 @@
 import { Container } from "components";
+import Image from "next/image";
 import React, { FC } from "react";
 
 export const Footer: FC = () => {
@@ -14,6 +15,10 @@ export const Footer: FC = () => {
           Built with React, TypeScript, and CSS
         </a>
       </p>
+      <a href="https://liaofe.github.io/mywebsite" target="_blank">
+        <Image src="./images/sleepie turtie.webp" width="50px" height="50px" >
+        </Image>
+      </a>
     </Container>
   );
 };
