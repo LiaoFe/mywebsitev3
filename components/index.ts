@@ -9,6 +9,6 @@ export * from "./Layout";
 export * from "./Logo";
 export * from "./MediaIcon";
 export * from "./Projects";
+export * from "./ScrollToTop";
 export * from "./Section";
 export * from "./Skills";
-export * from "./ScrollToTop";

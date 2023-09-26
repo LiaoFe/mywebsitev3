@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Button, Fade } from "react-bootstrap";
 import { FaArrowUp } from "react-icons/fa";
 
 const isBrowser = () => typeof window !== "undefined"; //The approach recommended by Next.js
@@ -41,7 +40,7 @@ export function ScrollToTopButton() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
-        <button className="fixed right-0 bottom-0 m-4" style={{background: "#363B49", borderRadius: "25%"}} onClick={scrollToTop}>
+        <button className="fixed bottom-0 right-0 m-4" style={{background: "#363B49", borderRadius: "25%"}} onClick={scrollToTop}>
           <FaArrowUp className="m-2" style={{background: "#363B49"}}/>
         </button>
       </motion.div>}

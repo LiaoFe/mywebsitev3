@@ -15,7 +15,7 @@ export const Footer: FC = () => {
           Built with React, TypeScript, and CSS
         </a>
       </p>
-      <a href="https://liaofe.github.io/mywebsite" target="_blank">
+      <a href="https://liaofe.github.io/mywebsite" target="_blank" rel="noreferrer">
         <Image src="./images/sleepie turtie.webp" width="50px" height="50px" >
         </Image>
       </a>

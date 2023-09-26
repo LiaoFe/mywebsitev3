@@ -6,9 +6,8 @@ import {
   Header,
   Hero,
   Projects,
-  Skills,
-  ScrollToTopButton
-} from "components";
+  ScrollToTopButton,
+  Skills} from "components";
 import { motion } from "framer-motion";
 import { GetStaticProps } from "next";
 import Head from "next/head";
