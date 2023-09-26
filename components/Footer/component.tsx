@@ -1,6 +1,7 @@
 import { Container } from "components";
 import Image from "next/image";
 import React, { FC } from "react";
+import { Col, Row } from "react-bootstrap";
 
 export const Footer: FC = () => {
   return (
@@ -15,10 +16,21 @@ export const Footer: FC = () => {
           Built with React, TypeScript, and CSS
         </a>
       </p>
-      <a href="https://liaofe.github.io/mywebsite" target="_blank" rel="noreferrer">
-        <Image src="./images/sleepie turtie.webp" width="50px" height="50px" >
-        </Image>
-      </a>
+      <Row style={{display: "flex", alignItems: "center", alignContent:"center"}}>
+        <a
+          href="https://liaofe.github.io/mywebsite"
+          target="_blank"
+          rel="noreferrer"
+          style={{display: "flex", alignContent: "center",  alignItems: "center",}}
+        >
+          <Image
+            src="./images/sleepie turtie.webp"
+            width="50px"
+            height="50px"
+          ></Image>
+          <p style={{margin: "5px"}}>  ←  Click Me!</p>
+        </a>
+      </Row>
     </Container>
   );
 };
