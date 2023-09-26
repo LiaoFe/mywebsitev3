@@ -11,3 +11,4 @@ export * from "./MediaIcon";
 export * from "./Projects";
 export * from "./Section";
 export * from "./Skills";
+export * from "./ScrollToTop";

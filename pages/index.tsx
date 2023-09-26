@@ -7,6 +7,7 @@ import {
   Hero,
   Projects,
   Skills,
+  ScrollToTopButton
 } from "components";
 import { motion } from "framer-motion";
 import { GetStaticProps } from "next";
@@ -34,6 +35,7 @@ const IndexPage = () => {
       <Head>
         <title>{t("headTitle")}</title>
       </Head>
+      <ScrollToTopButton />
       <CitationOverlay citation={citation} />
       <motion.div
         variants={{
