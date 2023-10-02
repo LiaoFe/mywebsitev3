@@ -5,10 +5,10 @@
     "p0": "Full-stack wizard, AI enthusiast, software engineering aspirer",
     "p1": "Future SWE Intern at",
     "p2": "Previously",
-    "des0": "I'm a 4th year computer science student at the University of Waterloo. I specialize in SWE and Full-Stack Devlopment with interst in AI.",
-    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, TypeScript and React",
+    "des0": "I'm a 4th year computer science student at the University of Waterloo. I specialize in SWE and Full-Stack Development with interest in AI.",
+    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, TypeScript and React.",
     "des2": "",
-    "des3": "\nI am currently learning more about AI models and algorithms along wtih the relevant AI tech stack!"
+    "des3": "\nCurrently improving my SWE skills by deepening my understanding of algorithms and data structures (leetcode grind never stops) and learning more about AI models and the relevant tech stack!"
   },
   "projects": {
     "title": "Projects",
@@ -28,7 +28,7 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "I had a great time at these companies. Hopefully I will be able to leave impactful code at your company too!"
+    "description": "I had a great time at these companies. Hopefully I will be able to leave an impactful code at your company too!"
   },
   "contact": {
     "title": "Contact me!",
