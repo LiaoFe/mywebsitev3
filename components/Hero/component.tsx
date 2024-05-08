@@ -47,7 +47,7 @@ export const Hero: FC = () => {
         <HeroLink title="Your Company" pointer-events href="" disabled />
         <br />
         {t("hero.p2") as string}{" "}
-        <HeroLink title="fliteX" href="https://flitex.net/" />{" "}
+        <HeroLink title="Intact" href="https://www.intactfc.com/about-us/intact-lab" />{" "}
         {t(",") as string}{" "}
         <HeroLink title="Bluroot" href="https://bluroot.ca/" />
         {t(" and") as string}{" "}

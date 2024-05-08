@@ -2,10 +2,10 @@
   "headTitle": "Felix",
   "hero": {
     "title": "Hi, I'm Felix!",
-    "p0": "Full-stack wizard, AI enthusiast, software engineering aspirer",
+    "p0": "Software engineering wizard and AI enthusiast",
     "p1": "Future SWE Intern at",
     "p2": "Previously",
-    "des0": "I'm a 4th year computer science student at the University of Waterloo. I specialize in SWE and Full-Stack Development with interest in AI.",
+    "des0": "I'm a 4th year computer science student at the University of Waterloo. I specialize in software engineering with interest in AI.",
     "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, TypeScript and React.",
     "des2": "",
     "des3": "\nCurrently improving my SWE skills by deepening my understanding of algorithms and data structures (leetcode grind never stops) and learning more about AI models and the relevant tech stack!"
@@ -36,7 +36,7 @@
   },
   "currently": "Currently",
   "citation": {
-    "content": "When life gives you lemons, you don't have to make lemonade :P",
+    "content": "Volleyball, badminton, and rocc climbing fanatic :P",
     "author": "- Felix"
   }
 }

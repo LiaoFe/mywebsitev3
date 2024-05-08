@@ -1,9 +1,9 @@
 export default {
   title: "Felix ",
-  description: "Real full-stack ninja lives here.",
+  description: "Real software ninja lives here.",
   openGraph: {
     title: "Felix ",
-    description: "Real full-stack wizards lives here.",
+    description: "Real software wizards lives here.",
     site_name: "Felix ",
   },
 };

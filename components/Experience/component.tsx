@@ -16,6 +16,11 @@ export const Experience: FC = () => {
   const experience = useMemo(
     () => [
       {
+        title: "Software Engineer",
+        place: "Intact DataLab - Toronto, Canada",
+        date: "Jan 2024 - April 2024",
+      },
+      {
         title: "Data Scientist / Software Engineer",
         place: "fliteX - Oshawa, Canada",
         date: "Sept 2023 - present",

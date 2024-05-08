@@ -3,7 +3,7 @@ import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
 import { FaJava,FaNodeJs,FaPython, FaReact,  } from "react-icons/fa";
-import { SiCplusplus, SiNumpy } from "react-icons/si";
+import { SiApachespark, SiCplusplus, SiDatabricks,SiNumpy, SiSnowflake } from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
@@ -12,19 +12,50 @@ import { Skill } from "./libs/Skill";
 
 const skills = [
   {
+    name: "Python",
+    href: "https://www.python.org/",
+    icon: <FaPython />,
+  },
+  {
+    name: "C++",
+    href: "https://cplusplus.com/doc/tutorial/",
+    icon: <SiCplusplus color='#0065C9' />,
+  },
+  {
+    name: "Java",
+    href: "https://www.java.com/en/",
+    icon: <FaJava color="#000000" />,
+  },
+  {
+    name: "Snowflake",
+    href: "https://www.snowflake.com/en/",
+    icon: <SiSnowflake />,
+  },
+  {
+    name: "Databricks",
+    href: "https://www.databricks.com/",
+    icon: <SiDatabricks />,
+  },
+  {
+    name: "Spark",
+    href: "https://spark.apache.org/",
+    icon: <SiApachespark />,
+  },
+  {
+    name: "NumPy",
+    href: "https://numpy.org/",
+    icon: <SiNumpy color="#4DABCF" />,
+  },
+  {
     name: "TypeScript",
     href: "https://typescriptlang.org",
     icon: <TsIcon />,
   },
+  
   {
     name: "React",
     href: "https://reactjs.org",
     icon: <FaReact color="#00D8FF" />,
-  },
-  {
-    name: "Python",
-    href: "https://www.python.org/",
-    icon: <FaPython />,
   },
   {
     name: "Node.js",
@@ -41,21 +72,7 @@ const skills = [
     href: "https://graphql.org",
     icon: <SiGraphql color="#E535AB" />,
   },
-  {
-    name: "C++",
-    href: "https://cplusplus.com/doc/tutorial/",
-    icon: <SiCplusplus color='#0065C9' />,
-  },
-  {
-    name: "Java",
-    href: "https://www.java.com/en/",
-    icon: <FaJava color="#000000" />,
-  },
-  {
-    name: "NumPy",
-    href: "https://numpy.org/",
-    icon: <SiNumpy color="#4DABCF" />,
-  },
+  
 
 ];
 
