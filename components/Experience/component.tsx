@@ -17,13 +17,18 @@ export const Experience: FC = () => {
     () => [
       {
         title: "Software Engineer",
+        place: "OpenText - Waterloo, Canada",
+        date: "Sept 2024 - Dec 2024",
+      },
+      {
+        title: "Software Engineer",
         place: "Intact DataLab - Toronto, Canada",
         date: "Jan 2024 - April 2024",
       },
       {
         title: "Data Scientist / Software Engineer",
         place: "fliteX - Oshawa, Canada",
-        date: "Sept 2023 - present",
+        date: "Sept 2023 - Dec 2023",
       },
       {
         title: "SWE Developer",

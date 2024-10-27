@@ -47,6 +47,8 @@ export const Hero: FC = () => {
         <HeroLink title="Your Company" pointer-events href="" disabled />
         <br />
         {t("hero.p2") as string}{" "}
+        <HeroLink title="OpenText" href="https://www.opentext.com/" />{" "}
+        {t(",") as string}{" "}
         <HeroLink title="Intact" href="https://www.intactfc.com/about-us/intact-lab" />{" "}
         {t(",") as string}{" "}
         <HeroLink title="Bluroot" href="https://bluroot.ca/" />

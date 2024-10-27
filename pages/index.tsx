@@ -55,9 +55,9 @@ const IndexPage = () => {
       >
         <Header />
         <Hero />
-        <Projects />
         <Skills />
         <Experience />
+        <Projects />
         <Contact />
         <Footer />
       </motion.div>

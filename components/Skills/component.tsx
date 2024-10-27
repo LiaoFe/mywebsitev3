@@ -2,12 +2,18 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaJava,FaNodeJs,FaPython, FaReact,  } from "react-icons/fa";
-import { SiApachespark, SiCplusplus, SiDatabricks,SiNumpy, SiSnowflake } from "react-icons/si";
+import { FaDocker, FaJava, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
+import {
+  SiApachespark,
+  SiCplusplus,
+  SiDatabricks,
+  SiNumpy,
+  SiSnowflake,
+} from "react-icons/si";
 import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
-import { PostgresIcon,TsIcon } from "./libs/Icons";
+import { PostgresIcon, TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
@@ -19,7 +25,7 @@ const skills = [
   {
     name: "C++",
     href: "https://cplusplus.com/doc/tutorial/",
-    icon: <SiCplusplus color='#0065C9' />,
+    icon: <SiCplusplus color="#0065C9" />,
   },
   {
     name: "Java",
@@ -51,7 +57,7 @@ const skills = [
     href: "https://typescriptlang.org",
     icon: <TsIcon />,
   },
-  
+
   {
     name: "React",
     href: "https://reactjs.org",
@@ -68,12 +74,10 @@ const skills = [
     icon: <PostgresIcon />,
   },
   {
-    name: "GraphQL",
-    href: "https://graphql.org",
-    icon: <SiGraphql color="#E535AB" />,
+    name: "Docker",
+    href: "https://www.docker.com/",
+    icon: <FaDocker color="#2496ED" />,
   },
-  
-
 ];
 
 export const Skills: FC = () => {
