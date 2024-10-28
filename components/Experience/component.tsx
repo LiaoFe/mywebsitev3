@@ -60,7 +60,7 @@ export const Experience: FC = () => {
       description={t("experience.description")}
     >
       <Container className="mt-14">
-        <div className="flex justify-between max-w-screen-sm" ref={ref}>
+        <div className="flex justify-between max-w-screen-sm" ref={ref} id="experience">
           {mdScreen ? (
             <>
               <div>

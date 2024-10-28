@@ -94,13 +94,15 @@ export const Skills: FC = () => {
   }, [controls, inView]);
 
   return (
-    <Section
+
+      <Section
       className="mt-20 mb-16 md:mt-28"
       title={t("skills.title")}
       description={t("skills.description")}
     >
       <Container>
-        <div
+        <div 
+        id="skills"
           className="max-w-md mt-8 grid grid-cols-2 sm:grid-cols-3 gap-6"
           ref={ref}
         >

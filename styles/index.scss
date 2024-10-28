@@ -6,6 +6,8 @@
 
 html {
   @apply bg-lightTheme;
+  scroll-behavior: smooth;
+  scroll-padding-top: 30vh;
 }
 
 html.dark {

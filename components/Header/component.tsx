@@ -81,6 +81,9 @@ export const Header: FC = () => {
   );
 
   useEffect(() => setMounted(true), []);
+  // useEffect(() => {
+  //   document.documentElement.style.setProperty('--scroll-padding-top', visible ? '175px' : '525px');
+  // }, [visible]);
 
   return (
     <div
@@ -88,6 +91,9 @@ export const Header: FC = () => {
         "fixed z-20 w-full opacity-90 bg-lightTheme dark:bg-darkTheme transition-top duration-300",
         visible ? "top-0" : "-top-28"
       )}
+      // style={{
+      //   scrollPaddingTop: visible ? '275px' : '225px',
+      // }}
     >
       <Container className="flex items-center justify-between w-auto py-5 md:py-9 text-black-900 dark:text-white-900">
         <Link id="link" legacyBehavior href="/">
@@ -95,6 +101,12 @@ export const Header: FC = () => {
             <Logo className="w-24 fill-current md:w-28 dark:text-white-900 text-black-900" />
           </a>
         </Link>
+        <div>
+          <a href="#skills"> Skills </a>
+        </div>
+        <div>
+          <a href="#experience"> Experience </a>
+        </div>
         <div className="flex items-center">
           <button
             className="items-center justify-center w-12 h-12 rounded-md dark:bg-gray-900 bg-pink focus:outline-none focus:ring-2 ring-blue-700 d-flex"
