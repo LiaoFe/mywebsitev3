@@ -43,7 +43,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           initial="initial"
           animate="visible"
           transition={{
-            delay: 3.0,
+            delay: 1.0,
             duration: 1.2,
           }}
         >
@@ -55,7 +55,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           initial="initial"
           animate="visible"
           transition={{
-            delay: 1.0,
+            delay: 0.3,
             duration: 1.2,
           }}
         >
@@ -67,7 +67,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           animate="visible"
           variants={textVariants}
           transition={{
-            delay: 2.0,
+            delay: 1.0,
             duration: 1.2,
           }}
         >

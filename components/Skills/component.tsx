@@ -10,7 +10,6 @@ import {
   SiNumpy,
   SiSnowflake,
 } from "react-icons/si";
-import { SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
 import { PostgresIcon, TsIcon } from "./libs/Icons";

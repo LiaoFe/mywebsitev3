@@ -22,8 +22,8 @@ const IndexPage = () => {
 
   useEffect(() => {
     const ids = [
-      setTimeout(() => setCitation(false), 4800),
-      setTimeout(() => setMain(true), 5700),
+      setTimeout(() => setCitation(false), 1800),
+      setTimeout(() => setMain(true), 2700),
     ];
 
     return () => ids.forEach((id) => clearTimeout(id));
@@ -50,7 +50,7 @@ const IndexPage = () => {
         initial="initial"
         animate={main ? "visible" : "initial"}
         transition={{
-          duration: 1.0,
+          duration: 0.50,
         }}
       >
         <Header />
