@@ -120,14 +120,14 @@ export const Header: FC = () => {
               )
             ) : null}
           </button>
-          <div className="relative ml-2 md:ml-4" ref={ref}>
-            {/* <button
+          {(<div className="relative ml-2 md:ml-4" ref={ref}>
+            <button
               className="py-2 pl-4 text-base font-medium uppercase rounded appearance-none pr-9 focus:outline-none focus:ring-2 focus:ring-blue-700 bg-none"
               onClick={toggleLangPicker}
             >
               {language}
-            </button> */}
-            {/* {langPicker && (
+            </button>
+            {langPicker && (
               <div className="absolute w-full p-1 mt-4 bg-pink dark:bg-white-900 rounded-md text-black-900">
                 {languages.map((currentLanguage, i) => (
                   <>
@@ -147,8 +147,8 @@ export const Header: FC = () => {
                   </>
                 ))}
               </div>
-            )} */}
-            {/* <span className="absolute top-0 right-0 flex items-center justify-center w-10 h-full text-center pointer-events-none">
+            )}
+            <span className="absolute top-0 right-0 flex items-center justify-center w-10 h-full text-center pointer-events-none">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -159,8 +159,8 @@ export const Header: FC = () => {
               >
                 <path d="M6 9l6 6 6-6"></path>
               </svg>
-            </span> */}
-          </div>
+            </span>
+          </div>) && false /* disabled for now*/ }
         </div>
       </Container>
     </div>
