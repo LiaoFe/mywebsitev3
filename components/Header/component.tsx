@@ -120,7 +120,7 @@ export const Header: FC = () => {
               )
             ) : null}
           </button>
-          <div className="relative ml-2 md:ml-4" ref={ref}>
+          {/* <div className="relative ml-2 md:ml-4" ref={ref}>
             <button
               className="py-2 pl-4 text-base font-medium uppercase rounded appearance-none pr-9 focus:outline-none focus:ring-2 focus:ring-blue-700 bg-none"
               onClick={toggleLangPicker}
@@ -160,7 +160,7 @@ export const Header: FC = () => {
                 <path d="M6 9l6 6 6-6"></path>
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>
