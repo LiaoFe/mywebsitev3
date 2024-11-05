@@ -58,7 +58,7 @@ export const Hero: FC = () => {
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://github.com/LiaoFe"
+          href="https://github.com/LiaoFe/mywebsitev3"
           className="mr-4"
         />
         <MediaIcon
