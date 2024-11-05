@@ -2,11 +2,11 @@
   "headTitle": "Felix",
   "hero": {
     "title": "Hi, I'm Felix!",
-    "p0": "Software engineer and volleyball enthusiast",
+    "p0": "Software engineer by day, volleyball and rock climbing enthusiast by night",
     "p1": "Future SWE at",
     "p2": "Previously",
-    "des0": "I'm a 4th year computer science student at the University of Waterloo and I specialize in software engineering.",
-    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, Java, TypeScript and React."
+    "des0": "I'm a 4th year computer science student at the University of Waterloo and I specialize in software engineering. I've a strong desire to improve my skills and learn as much as I can.",
+    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, Java, TypeScript and React. I value a supportive company culture and clear communication. I hope I would be able to integrate myself as part of your team easily!"
   },
   "projects": {
     "title": "Projects",
@@ -30,11 +30,11 @@
   },
   "contact": {
     "title": "Contact me!",
-    "description": "Shoot me a message! I appreciate you checking out my website especially since you've made it this far! I'd love to chat or hang out :D"
+    "description": "Shoot me a message! I appreciate you checking out my website especially since you've made it this far! I'd love to chat or connect :D"
   },
   "currently": "Currently",
   "citation": {
-    "content": "Volleyball, badminton, and rocc climbing fanatic :P",
+    "content": "Software engineer and volleyball fanatic :P",
     "author": "- Felix"
   }
 }
